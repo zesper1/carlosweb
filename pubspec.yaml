@@ -1,0 +1,45 @@
+name: mind_connect
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.6.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  image_picker: ^1.1.2
+  provider: ^6.1.2
+  shared_preferences: ^2.2.3
+  http: ^1.2.1
+  flutter_tts: ^3.4.0  # Text-to-speech dependency
+  supabase_flutter: ^2.8.4  # Updated Supabase version
+  intl: ^0.18.0  # Added for DateFormat
+  audioplayers: ^5.2.1  # 🎵 Audio player for local/online music playback
+  postgrest: ^2.4.1  # Added PostgREST dependency
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1  # Latest stable version
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo.png
+    - assets/song1.mp3
+    - assets/song2.mp3
+    - assets/song3.mp3
+    - assets/song4.mp3
+    - assets/song5.mp3
+    - assets/song6.mp3  # 🎵 Add a local music file (or use an online URL)
+    - assets/image4.jpg
+    - assets/image2.jpg
+    - assets/image.jpg
+    - assets/image1.jpg
+    - assets/image3.jpg
